@@ -3,6 +3,7 @@
     background-color: #eee;
     margin: 0 auto;
     
+    @include clearfix;
 
     &:not(:last-child){
         margin-bottom: $gutter-vertical;
