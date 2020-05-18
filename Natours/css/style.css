@@ -1,3 +1,9 @@
+/*
+0 - 600px; Phone
+600 - 900: tap-port
+1200-1800: tab-land
+1800px - big-desktop
+*/
 *,
 *::after,
 *::before {
@@ -7,6 +13,18 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.2%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 35%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
